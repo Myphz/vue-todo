@@ -80,10 +80,8 @@ export default {
 </script>
 
 <style scoped>
+
   .container {
-    max-width: 500px;
-    margin: 10px auto;
-    overflow: auto;
     padding: .5em;
     width: 25vw;
     border: 1px solid darkorange;
@@ -93,5 +91,6 @@ export default {
   .buttons {
     display: flex;
     justify-content: center;
+    gap: 1em;
   }
 </style>
